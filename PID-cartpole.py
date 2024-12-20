@@ -1,5 +1,5 @@
 import numpy as np
-import gymnasium as gym
+import gymnasium as gym # type: ignore
 import time
 
 env = gym.make("CartPole-v1", render_mode = "human")
